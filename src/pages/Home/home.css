@@ -11,17 +11,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
 
+.logo img {
+    margin-bottom: 14px;
+    height: 70px;
 }
 
 .logo h1 {
     font-size: 60px;
-    color: #FFF;
+    /* color: #FFF; */
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
 }
 
 .logo span {
     color: #FFF;
-    margin-top: 14px;
+    margin-top: 4px;
     margin-bottom: 30px;
     font-size: 19px;
 }
