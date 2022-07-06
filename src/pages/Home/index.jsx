@@ -4,7 +4,7 @@ import { FiLink } from "react-icons/fi";
 import "./home.css";
 import Menu from "../../components/Menu/Menu";
 import LinkItem from "../../components/LinkItem";
-import Api from "../../services/api";
+
 import api from "../../services/api";
 import { saveLink } from "../../services/storeLinks";
 
